@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_directorio"
+    tools:context=".activities.ActivityContacto">
+
+    <include android:id="@+id/miActionBar"
+        layout="@layout/actionbarresumen"
+        />
+
+    <LinearLayout
+        android:id="@+id/vlPrincipal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingTop="55dp"
+        >
+
+        <EditText
+            android:id="@+id/etNombreCompleto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/form_para"
+            android:inputType="text"
+            android:textSize="@dimen/text_size"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etCorreo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/form_correo"
+            android:inputType="text"
+            android:textSize="@dimen/text_size"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etMensaje"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/form_mensaje"
+            android:inputType="text"
+            android:textSize="@dimen/text_size"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnEnviar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/vlPrincipal"
+            android:text="@string/btn_enviar"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="683dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">MascotasRecycleyView</string>
+    <string name="app_texto_dummy">Dummy</string>
+    <string name="app_titulo">Petagram</string>
+    <string name="menu_contacto">Contacto</string>
+    <string name="menu_acercade">Acerca de</string>
+
+    <string name="form_para">Para</string>
+    <string name="form_correo">Correo</string>
+    <string name="form_mensaje">Mensaje</string>
+    <string name="btn_enviar">Enviar Comentario</string>
+    <string name="correo_enviado">Correo enviado.</string>
+    <string name="infoDesarrollador">Conseguir logros dentro de la empresa, contribuyendo con mi experiencia profesional, actitud, valores y ética; buscando siempre mejorar en todas las actividades que desarrolle, logrando con ello alcanzar posiciones de mayor responsabilidad y reto. Ofreciendo soluciones de acuerdo a las expectativas de la empresa.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="plikes">0 Likes</string>
+</resources>
